@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".integration.single.SingleIntegrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <Button
+            android:id="@+id/CustomKeyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Key 테스트" />
+
+        <Button
+            android:id="@+id/CustomShortLogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Short Log 테스트" />
+
+        <Button
+            android:id="@+id/CustomLongLogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Long Log 테스트" />
+
+        <Button
+            android:id="@+id/CustomUserIdButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom User Id 테스트" />
+
+        <Button
+            android:id="@+id/RecordExceptionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom RecordException 테스트"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
