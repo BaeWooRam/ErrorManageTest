@@ -1,4 +1,7 @@
 # ErrorManageTest
+## Tool
+* Firebase Crashlytics
+* Sentry
 
 ## 설정1. google-service.json 추가
 app 디렉토리 하위로 추가
